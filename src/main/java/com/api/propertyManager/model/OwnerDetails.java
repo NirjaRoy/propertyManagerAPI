@@ -25,7 +25,7 @@ public class OwnerDetails {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name="owner_Code")
-	public long ownerCode;
+	public Long ownerCode;
 	
 	@Column(name="owner_Name")
 	public String ownerName;

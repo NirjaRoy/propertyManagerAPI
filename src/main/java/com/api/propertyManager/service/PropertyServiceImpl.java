@@ -68,7 +68,7 @@ public class PropertyServiceImpl implements PropertyService{
 				.propertyName(propertyData.getPropertyName())
 				.propertyLocation(propertyData.getPropertyLocation())
 				.propertyRent(propertyData.getPropertyRent())
-				.ownerCode(propertyData.getOwner().getOwnerCode())
+				//.ownerCode(propertyData.getOwner().getOwnerCode())
 				.build();
 	}
 

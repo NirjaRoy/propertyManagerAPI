@@ -9,17 +9,14 @@ import java.util.Optional;
 
 import com.api.propertyManager.dto.PropertyRequest;
 import com.api.propertyManager.dto.PropertyResponse;
-import com.api.propertyManager.exceptions.PropertyNotFoundException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
 import com.api.propertyManager.model.PropertyDetails;
 import com.api.propertyManager.service.PropertyService;
-import org.springframework.web.server.ResponseStatusException;
 
 @RestController
 @RequestMapping("/property")
