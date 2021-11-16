@@ -1,6 +1,5 @@
 package com.api.propertyManager.dto;
 
-import com.api.propertyManager.model.PropertyDetails;
 import lombok.*;
 
 @Getter

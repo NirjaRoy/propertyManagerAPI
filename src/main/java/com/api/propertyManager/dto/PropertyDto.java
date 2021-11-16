@@ -1,6 +1,5 @@
 package com.api.propertyManager.dto;
 
-import com.api.propertyManager.model.OwnerDetails;
 import lombok.*;
 
 import java.io.Serializable;
